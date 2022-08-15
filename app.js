@@ -7,7 +7,7 @@ const request = require("request");
 const mailchimp =require("@mailchimp/mailchimp_marketing");
 
 mailchimp.setConfig({
-  apiKey: "de42711ce42ee15531e4a838566b2ca3-us11",
+  apiKey: "",
   server: "us11",
 });
 
@@ -48,7 +48,7 @@ const jsonData= JSON.stringify(data);
 const url="https://us11.api.mailchimp.com/3.0/lists/2b5bd4f523";
 const options={
   method:"POST",
-  auth:"victor:de42711ce42ee15531e4a838566b2ca3-us11"
+  auth:"victor:"
 }
 
 
